@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "tactile"
+version = "2024.6a1"
+description = ""
+authors = [
+  { name = "Wenrui Gou" },
+]
+classifiers = [
+  "Private :: Do Not Upload",
+  "Development Status :: 2 - Pre-Alpha",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Natural Language :: English",
+  "Programming Language :: Python :: 3",
+  "Topic :: Scientific/Engineering",
+]
+
+requires-python = ">=3.12"
+dependencies = [
+  "numpy",
+  "pybullet",
+  "opencv-python",
+  "scipy",
+  "scikit-image",
+  "pandas",
+  "torch",
+  "pytorch-model-summary",
+  "vit-pytorch",
+  "tensorboard",
+  "matplotlib",
+  "seaborn",
+  "hyperopt",
+  "common-robot-interface @ git+https://github.com/wenruigou/common-robot-interface.git",
+]
+
+[tool.hatch.metadata]
+allow-direct-references = true

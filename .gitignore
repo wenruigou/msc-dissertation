@@ -1,0 +1,13 @@
+# Artefacts
+/src/tactile/data/data/
+/src/tactile/data/models/
+/src/tactile/data/runs/
+/src/tactile/data_shear/data/
+/src/tactile/data_shear/models/
+/src/tactile/data_shear/runs/
+
+# Virtual environments
+/.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
